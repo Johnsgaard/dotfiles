@@ -20,7 +20,7 @@
   Plugin 'tomtom/tlib_vim'
   Plugin 'honza/vim-snippets'
   Plugin 'tpope/vim-haml'
-  Plugin 'bling/vim-airline'
+  " Plugin 'bling/vim-airline'
   Plugin 'scrooloose/nerdcommenter'
   Plugin 'http://git.drupal.org/project/vimrc.git'
   Plugin 'NLKNguyen/papercolor-theme'
@@ -113,9 +113,9 @@
   nnoremap <leader><space> :nohlsearch<cr>
 
 " powerline/airline
-  let g:airline_powerline_fonts = 1
-  let g:airline_theme='PaperColor'
-  set laststatus=2
+"  let g:airline_powerline_fonts = 1
+"  let g:airline_theme='PaperColor'
+"  set laststatus=2
 
 " wrapping is stupid
   set nowrap
