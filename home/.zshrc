@@ -20,6 +20,7 @@ export DOTFILES="$HOME/.homesick/repos/dotfiles"
 alias ll="ls -al"
 alias vi=vim
 alias nano=vim
+alias sl="/usr/local/bin/sl"
 
 # Fix NPM/NVMs brokenness
 alias nvmdefault="nvm use --delete-prefix 4.2.1 --silent"
@@ -108,4 +109,3 @@ export NVM_DIR="${HOME}/.nvm"
 # bind keys for history substring search
 bindkey '^[[A' history-substring-search-up
 bindkey '^[[B' history-substring-search-down
-
