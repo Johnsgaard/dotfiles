@@ -22,9 +22,6 @@ alias vi=vim
 alias nano=vim
 alias sl="/usr/local/bin/sl"
 
-# Fix NPM/NVMs brokenness
-alias nvmdefault="nvm use --delete-prefix 4.2.1 --silent"
-
 # Set everything to use vim
 export VISUAL=vim
 export EDITOR=vim
